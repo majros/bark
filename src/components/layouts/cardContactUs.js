@@ -7,9 +7,9 @@ import Typography from '@material-ui/core/Typography';
 
 import contacts from '../img/contactUs_3.jpg';
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
     root: {
-        // maxWidth: 800,
+        marginBottom: theme.spacing(1),
     },
     media: {
         paddingTop: 40,

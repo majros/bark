@@ -12,6 +12,7 @@ import openVacancies from '../img/kokkari_1.jpg';
 const useStyles = makeStyles((theme) => ({
     root: {
         padding: theme.spacing(0),
+        marginBottom: theme.spacing(1),
     },
     media: {
         paddingTop: 40,
