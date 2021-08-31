@@ -27,7 +27,7 @@ export default function MediaControlCard() {
         <Card className={classes.root}>
             <CardMedia className={classes.media} image={contacts}>
                 <Typography className={classes.typographs} component="h1" variant="h3" align='center' >
-                    Contact Us
+                    <b>Contact Us</b>
                 </Typography>
             </CardMedia>
             <CardContent>

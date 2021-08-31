@@ -18,6 +18,10 @@ const useStyles = makeStyles((theme) => ({
         paddingTop: 40,
         height: 140,
     },
+    content: {
+        width: '100%',
+        backgroundColor: 'rgba(255,255,255,0.5)',
+    },
     textStyle: {
         textShadow: '1px 0 white, 0 1px white, -1px 0 white, 0 -1px white',
     },
@@ -34,9 +38,11 @@ export default function MediaControlCard() {
                 <Typography className={classes.textStyle} component="h1" variant="h3" align='center' >
                     <b>Vacancies</b>
                 </Typography>
-                <Typography className={classes.textStyle} variant="h6" align='center'>
-                    <b>Open positions on <Moment format="DD MMMM YYYY">{date}</Moment></b>
-                </Typography>
+                <div className={classes.content}>
+                    <Typography variant="h6" align='center'>
+                        <b>Open positions on <Moment format="DD MMMM YYYY">{date}</Moment></b>
+                    </Typography>
+                </div>
             </CardMedia>
             <CardContent className={classes.root}>
                 <TableVacancies/>

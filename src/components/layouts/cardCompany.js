@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
+import Partners from './btnCompanyPartners'
 
 import company from '../img/company2.jpg';
 
@@ -31,9 +32,6 @@ const useStyles = makeStyles((theme) => ({
     text: {
         padding: theme.spacing(2),
     },
-    textStyle: {
-        textShadow: '1px 0 white, 0 1px white, -1px 0 white, 0 -1px white',
-    },
 }));
 
 export default function MediaControlCard() {
@@ -46,13 +44,13 @@ export default function MediaControlCard() {
                     <div className={classes.content}>
                         <div className={classes.text}>
                             <Typography component="h1" variant="h3" align='center' paragraph>
-                                Our company
+                                <b>Our company</b>
                             </Typography>
-                            <Typography variant="h6" paragraph className={classes.textStyle}>
+                            <Typography variant="h6" paragraph >
                                 Bark Manning Agency is a recruiting agent of Ukrainian seafarers for employment aboard vessels
                                 of foreign Shipowners.
                             </Typography>
-                            <Typography variant="body2" color="textPrimary" className={classes.textStyle}>
+                            <Typography variant="body2" color="textPrimary" >
                                 Since created in 1992 we have gained a proper experience, good reputation and formed a professional
                                 staff team capable to select qualified crew to meet the expectations and specific requirements of our
                                 Principals for our mutual benefit.
@@ -63,6 +61,7 @@ export default function MediaControlCard() {
                                 Russian Maritime Register of Shipping.
                             </Typography>
                         </div>
+                        <Partners/>
                     </div>
                 </CardContent>
             </div>

@@ -3,25 +3,28 @@ import { makeStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
 
-import openVacancies from '../img/openVacancies.jpg';
-import cadetsProgram from '../img/cadetsProgram.jpg';
-import contacts from '../img/contacts.png';
+import nomikosPic from '../img/nomikos.jpg';
+import samosPic from '../img/samos.jpg';
+import offenPic from '../img/offen.jpg';
 
-const images = [
+const listOfPartners = [
     {
-        url: openVacancies,
-        title: 'Open Vacancies',
-        width: '40%',
+        url: nomikosPic,
+        title: 'A.M. NOMIKOS T.W.M.A. S.A.',
+        site: 'https://www.amnomikos.com/',
+        width: '33.3%',
     },
     {
-        url: cadetsProgram,
-        title: 'Cadets Program',
-        width: '30%',
+        url: samosPic,
+        title: 'SAMOS STEAMSHIP Co.',
+        site: 'https://samossteamship.gr/#home',
+        width: '33.4%',
     },
     {
-        url: contacts,
-        title: 'Contacts',
-        width: '30%',
+        url: offenPic,
+        title: 'OffenGroup',
+        site: 'https://offengroup.de/',
+        width: '33.3%',
     },
 ];
 
@@ -34,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     },
     image: {
         position: 'relative',
-        height: 200,
+        height: 100,
         [theme.breakpoints.down('xs')]: {
             width: '100% !important', // Overrides inline-style
             height: 100,
@@ -103,34 +106,36 @@ export default function ButtonBases() {
 
     return (
         <div className={classes.root}>
-            {images.map((image) => (
+            {listOfPartners.map((_listOfPartners) => (
                 <ButtonBase
                     focusRipple
-                    key={image.title}
+                    key={_listOfPartners.title}
                     className={classes.image}
                     focusVisibleClassName={classes.focusVisible}
                     style={{
-                        width: image.width,
+                        width: _listOfPartners.width,
                     }}
+                    target='_blank'
+                    href={_listOfPartners.site}
                 >
-          <span
-              className={classes.imageSrc}
-              style={{
-                  backgroundImage: `url(${image.url})`,
-              }}
-          />
+                    <span
+                        className={classes.imageSrc}
+                        style={{
+                        backgroundImage: `url(${_listOfPartners.url})`,
+                        }}
+                    />
                     <span className={classes.imageBackdrop} />
                     <span className={classes.imageButton}>
-            <Typography
-                component="span"
-                variant="subtitle1"
-                color="inherit"
-                className={classes.imageTitle}
-            >
-              {image.title}
-                <span className={classes.imageMarked} />
-            </Typography>
-          </span>
+                    <Typography
+                        component="span"
+                        variant="subtitle1"
+                        color="inherit"
+                        className={classes.imageTitle}
+                    >
+                        {_listOfPartners.title}
+                        <span className={classes.imageMarked} />
+                    </Typography>
+                    </span>
                 </ButtonBase>
             ))}
         </div>

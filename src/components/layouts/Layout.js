@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-// import Button from './btnVacancies';
 import CardCompany from './cardCompany';
 import CardCadets from './cardCadets';
 import CardVacancies from './cardVacancies';
@@ -32,7 +31,6 @@ export default function ComplexGrid() {
     return (
         <div className={classes.root}>
             <Paper className={classes.paper}>
-                {/*<Button/>*/}
                 <CardCompany/>
                 <CardVacancies/>
                 <CardCadets/>

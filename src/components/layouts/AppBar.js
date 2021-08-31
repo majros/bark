@@ -12,7 +12,6 @@ const useStyles = makeStyles(() => ({
         flexGrow: 1,
     },
     logo: {
-        // width: 275,
         height: window.innerWidth > 450 ? 55 : 30,
     },
     toolbar: {

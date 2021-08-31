@@ -43,7 +43,7 @@ export default function MediaControlCard() {
                     <div className={classes.content}>
                         <div className={classes.text}>
                             <Typography component="h1" variant="h3" align='center' paragraph>
-                                Cadets program
+                                <b>Cadets program</b>
                             </Typography>
                             <Typography variant="body1" paragraph>
                                 SAMOS Cadets program of Ukrainian Nationality to become eligible for first employment,
