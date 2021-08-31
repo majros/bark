@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     content: {
         height: '100%',
         width: '100%',
-        backgroundColor: 'rgba(255,255,255,0.5)',
+        backgroundColor: 'rgba(255,255,255,0.75)',
     },
     text: {
         padding: theme.spacing(1),

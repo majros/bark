@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Moment from 'react-moment';
 import TableVacancies from './tableVacancies';
 
-import openVacancies from '../img/openVacancies.jpg';
+import openVacancies from '../img/kokkari_1.jpg';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -31,10 +31,10 @@ export default function MediaControlCard() {
         <Card className={classes.root}>
             <CardMedia className={classes.media} image={openVacancies}>
                 <Typography className={classes.textStyle} component="h1" variant="h3" align='center' >
-                    Vacancies
+                    <b>Vacancies</b>
                 </Typography>
                 <Typography className={classes.textStyle} variant="h6" align='center'>
-                    Open positions on <Moment format="DD MMMM YYYY">{date}</Moment>
+                    <b>Open positions on <Moment format="DD MMMM YYYY">{date}</Moment></b>
                 </Typography>
             </CardMedia>
             <CardContent className={classes.root}>

@@ -5,7 +5,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
-import contacts from '../img/contacts.jpg';
+import contacts from '../img/contactUs_3.jpg';
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -13,7 +13,7 @@ const useStyles = makeStyles(() => ({
     },
     media: {
         paddingTop: 40,
-        height: 100,
+        height: 150,
     },
     typographs: {
         textShadow: '1px 0 white, 0 1px white, -1px 0 white, 0 -1px white',
@@ -42,9 +42,9 @@ export default function MediaControlCard() {
                     Mariupol, Ukraine, 87517
                     <br/>
                     <br/>
-                    <b>Phones:</b> +38 (0629) 41-71-48 /49 /50
+                    <b>Samos/Alberta/Offen</b> +38 0629 41-36-(25) (38)
                     <br/>
-                    <b>Fax:</b> +38 (0629) 41-36-25 /38
+                    <b>Nomikos</b> +38 (0629) 41-71-(48) (49) (50)
                     <br/>
                     <b>e-mail:</b> info@bark.com.ua
                 </Typography>

@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
-import company from '../img/company.png';
+import company from '../img/company2.jpg';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -28,10 +28,13 @@ const useStyles = makeStyles((theme) => ({
     content: {
         height: '100%',
         width: '100%',
-        backgroundColor: 'rgba(255,255,255,0.5)',
+        backgroundColor: 'rgba(255,255,255,0.75)',
     },
     text: {
         padding: theme.spacing(1),
+    },
+    textStyle: {
+        textShadow: '1px 0 white, 0 1px white, -1px 0 white, 0 -1px white',
     },
 }));
 
@@ -49,16 +52,14 @@ export default function MediaControlCard() {
                                 <Typography component="h1" variant="h3" align='center' paragraph>
                                     Our company
                                 </Typography>
-                                <Typography variant="h6" paragraph>
+                                <Typography variant="h6" paragraph className={classes.textStyle}>
                                     Bark Manning Agency is a recruiting agent of Ukrainian seafarers for employment aboard vessels
                                     of foreign Shipowners.
                                 </Typography>
-                                <Typography variant="body2" color="textPrimary">
+                                <Typography variant="body2" color="textPrimary" className={classes.textStyle}>
                                     Since created in 1992 we have gained a proper experience, good reputation and formed a professional
                                     staff team capable to select qualified crew to meet the expectations and specific requirements of our
-                                    Principals for our mutual benefit.
-                                </Typography>
-                                <Typography variant="body2" color="textPrimary">
+                                    Principals for our mutual benefit.<br/>
                                     Our quality system fully complies with the requirements of International Standard - ISO 9001:2015
                                     and Maritime Labour Convention (MLC 2006). Bark is a licensed private company certified according to
                                     International Standard ISO 9001: 2015 and as per requirements of Maritime Labour Convention (MLC 2006) by
