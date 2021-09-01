@@ -5,6 +5,7 @@ import Typography from '@material-ui/core/Typography';
 
 import nomikosPic from '../img/nomikos.jpg';
 import samosPic from '../img/samos.jpg';
+import albertaPic from '../img/albertaLimnionas.jpg';
 import offenPic from '../img/offen.jpg';
 
 const listOfPartners = [
@@ -12,19 +13,25 @@ const listOfPartners = [
         url: nomikosPic,
         title: 'A.M. NOMIKOS T.W.M.A. S.A.',
         site: 'https://www.amnomikos.com/',
-        width: '33.3%',
+        width: '25%',
     },
     {
         url: samosPic,
         title: 'SAMOS STEAMSHIP Co.',
         site: 'https://samossteamship.gr/#home',
-        width: '33.4%',
+        width: '25%',
+    },
+    {
+        url: albertaPic,
+        title: 'Alberta Shipbrokers Ltd.',
+        site: 'https://www.albertaship.com/',
+        width: '25%',
     },
     {
         url: offenPic,
         title: 'OffenGroup',
         site: 'https://offengroup.de/',
-        width: '33.3%',
+        width: '25%',
     },
 ];
 
@@ -37,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     },
     image: {
         position: 'relative',
-        height: 100,
+        height: 200,
         [theme.breakpoints.down('xs')]: {
             width: '100% !important', // Overrides inline-style
             height: 100,

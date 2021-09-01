@@ -50,7 +50,7 @@ export default function MediaControlCard() {
                                 Bark Manning Agency is a recruiting agent of Ukrainian seafarers for employment aboard vessels
                                 of foreign Shipowners.
                             </Typography>
-                            <Typography variant="body2" color="textPrimary" >
+                            <Typography variant="body2" color="textPrimary" paragraph>
                                 Since created in 1992 we have gained a proper experience, good reputation and formed a professional
                                 staff team capable to select qualified crew to meet the expectations and specific requirements of our
                                 Principals for our mutual benefit.
@@ -60,8 +60,11 @@ export default function MediaControlCard() {
                                 International Standard ISO 9001: 2015 and as per requirements of Maritime Labour Convention (MLC 2006) by
                                 Russian Maritime Register of Shipping.
                             </Typography>
+                            <Typography variant="h6" align='left' >
+                                Our partners
+                            </Typography>
+                            <Partners/>
                         </div>
-                        <Partners/>
                     </div>
                 </CardContent>
             </div>

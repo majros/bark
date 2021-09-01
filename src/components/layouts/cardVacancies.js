@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Moment from 'react-moment';
 import TableVacancies from './tableVacancies';
 
-import openVacancies from '../img/kokkari_1.jpg';
+import openVacancies from '../img/manningPeople_2.jpg';
 
 const useStyles = makeStyles((theme) => ({
     root: {

@@ -27,12 +27,12 @@ export default function MediaControlCard() {
         <Card className={classes.root}>
             <CardMedia className={classes.media} image={contacts}>
                 <Typography className={classes.typographs} component="h1" variant="h3" align='center' >
-                    <b>Contact Us</b>
+                    <b>Contact us for anything</b>
                 </Typography>
             </CardMedia>
             <CardContent>
                 <Typography className={classes.typographs} variant="h5" align='center' >
-                    We are always glad to see you in our office at:
+                    Our goal is to be as helpful as possible.
                 </Typography>
                 <Typography className={classes.typographs} variant="body1">
                     <b>Address:</b>
@@ -44,7 +44,7 @@ export default function MediaControlCard() {
                     <br/>
                     <b>Samos/Alberta/Offen</b> +38 0629 41-36-(25) (38)
                     <br/>
-                    <b>Nomikos</b> +38 (0629) 41-71-(48) (49) (50)
+                    <b>Nomikos</b> +38 0629 41-71-(48) (49) (50)
                     <br/>
                     <b>e-mail:</b> info@bark.com.ua
                 </Typography>

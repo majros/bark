@@ -16,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
         margin: 'auto',
         boxShadow: 'none',
         justifyContent: 'center',
+        maxWidth: 1000,
     },
     img: {
         margin: 'auto',

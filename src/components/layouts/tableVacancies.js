@@ -9,8 +9,8 @@ import TableRow from '@material-ui/core/TableRow';
 
 const StyledTableCell = withStyles((theme) => ({
     head: {
-        backgroundColor: theme.palette.primary.light,
-        color: theme.palette.common.white,
+        backgroundColor: theme.palette.text.disabled,
+        color: theme.palette.common.black,
     },
     body: {
         fontSize: 14,
@@ -59,7 +59,7 @@ export default function BasicTable() {
                         <StyledTableCell>SALARY (USD)</StyledTableCell>
                         <StyledTableCell>DURATION (MONTHS)</StyledTableCell>
                         <StyledTableCell>JOIN DATE</StyledTableCell>
-                        <StyledTableCell className={classes.table}>ADDITIONAL INFO</StyledTableCell>
+                        <StyledTableCell align='center' className={classes.table}>ADDITIONAL INFO</StyledTableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
