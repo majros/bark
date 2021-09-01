@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/bark/static/js/main.0e2dd831.chunk.js",
+    "main.js.map": "/bark/static/js/main.0e2dd831.chunk.js.map",
+    "runtime-main.js": "/bark/static/js/runtime-main.4de1e913.js",
+    "runtime-main.js.map": "/bark/static/js/runtime-main.4de1e913.js.map",
+    "static/js/2.91e80ccd.chunk.js": "/bark/static/js/2.91e80ccd.chunk.js",
+    "static/js/2.91e80ccd.chunk.js.map": "/bark/static/js/2.91e80ccd.chunk.js.map",
+    "index.html": "/bark/index.html",
+    "static/js/2.91e80ccd.chunk.js.LICENSE.txt": "/bark/static/js/2.91e80ccd.chunk.js.LICENSE.txt",
+    "static/media/albertaLimnionas.e7043f1e.jpg": "/bark/static/media/albertaLimnionas.e7043f1e.jpg",
+    "static/media/appForm.fce2dab9.doc": "/bark/static/media/appForm.fce2dab9.doc",
+    "static/media/cadetsProgram.25b6c397.jpg": "/bark/static/media/cadetsProgram.25b6c397.jpg",
+    "static/media/company2.64dc084f.jpg": "/bark/static/media/company2.64dc084f.jpg",
+    "static/media/contactUs_3.454636b6.jpg": "/bark/static/media/contactUs_3.454636b6.jpg",
+    "static/media/manningPeople_2.3f01e50b.jpg": "/bark/static/media/manningPeople_2.3f01e50b.jpg",
+    "static/media/nomikos.dbe99e2c.jpg": "/bark/static/media/nomikos.dbe99e2c.jpg",
+    "static/media/offen.94f274d4.jpg": "/bark/static/media/offen.94f274d4.jpg",
+    "static/media/samos.511e60b1.jpg": "/bark/static/media/samos.511e60b1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4de1e913.js",
+    "static/js/2.91e80ccd.chunk.js",
+    "static/js/main.0e2dd831.chunk.js"
+  ]
+}
